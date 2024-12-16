@@ -1,0 +1,11 @@
+# include<stdio.h>
+int main()
+{
+float a,b,gst,netprice;
+printf("enter a original cost");
+scanf("%f",&a);
+printf("enter netprice:");
+scanf("%f",&b);
+gst=(b-(a/a))*100;
+printf("the gst percentage is %2f",gst);
+}
